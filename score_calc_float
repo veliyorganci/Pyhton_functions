@@ -1,0 +1,16 @@
+score = float(input("Please entry exam score : "))
+
+if score >= 90:
+  if score >= 95:
+    Score_letter = "A+"
+  else:
+    Score_letter = "A"
+elif score >=80:
+  if score >= 85:
+    Score_letter = "B+"
+  else:
+    Score_letter = "B"
+else:
+    Score_letter = "below B"
+
+print("your degree: %s" % Score_letter)
