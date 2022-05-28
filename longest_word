@@ -1,0 +1,11 @@
+sentence = input("Give me a sentence :")
+world_list = sentence.split()
+
+longest = 0
+i = 0
+while i < len(world_list) : 
+  if len(worl_list[i]) > longest : 
+    longest = len(world_list[i])
+
+    i += 1
+print("The lenght of the longest word :")
