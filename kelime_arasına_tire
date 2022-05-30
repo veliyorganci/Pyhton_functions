@@ -1,0 +1,9 @@
+word = input("Give me a word :")
+counter = 0        ##if statement koymalıyız.
+
+for i in word :
+  counter += 1
+  if counter < len(word) :
+    i += "-"
+  
+  print(i, end ="")
