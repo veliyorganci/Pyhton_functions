@@ -2,6 +2,7 @@ calculator = {"+": lambda x, y : x + y,
               "-": lambda x, y : x - y,
               "*": lambda x, y : x * y,
               "/": lambda x, y : x / y,}
+              
 print (calculator["+"](4, 5),
        calculator["-"](4, 5),
        calculator["*"](4, 5),
