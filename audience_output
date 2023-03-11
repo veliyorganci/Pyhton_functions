@@ -9,5 +9,6 @@ if audience in audience_group:
     print("discounted price!")
   else: # audience == "adult":
     print("normal price")
+    
 else:
   print("No such audience, stay at your home!")
