@@ -5,5 +5,4 @@ for i in word :
   counter += 1
   if counter < len(word) :
     i += "-"
-  
   print(i, end ="")
