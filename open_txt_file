@@ -1,4 +1,5 @@
 with open ("fruits3.txt", "w", encoding= "utf-8") as ff:
+
   ff.writelines(fruits3)
 
 with open ("fruits3.txt", "r", encoding= "utf-8") as ff:
