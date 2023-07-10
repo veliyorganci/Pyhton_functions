@@ -9,6 +9,5 @@ while True :
     elif guess > answer :
         print("Little lower..")
     else :
-
         print("Are you a MINDREADER")
         break
